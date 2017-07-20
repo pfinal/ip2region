@@ -13,3 +13,6 @@ META-INF/
 .project
 # vim swp file #
 *.swp
+.idea
+/vendor
+composer.lock
