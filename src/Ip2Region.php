@@ -5,6 +5,8 @@ namespace PFinal\Ip2Region;
 defined('INDEX_BLOCK_LENGTH') or define('INDEX_BLOCK_LENGTH', 12);
 defined('TOTAL_HEADER_LENGTH') or define('TOTAL_HEADER_LENGTH', 4096);
 
+use Exception;
+
 /**
  * ip2region php seacher client class
  *
